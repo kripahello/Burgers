@@ -1,0 +1,161 @@
+:root{
+    --yellow:#FC8019;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    object-fit:cover;
+    height: 39.875rem;
+}
+
+input{
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid grey;
+}
+
+article{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+}
+/* logo section */
+.logo-brand{
+    font-size: 3rem;
+    font-weight:700 ;
+    color: #FC8019;
+    text-align: center;
+    margin: 0 0 1rem -3rem;
+}
+
+header h3{
+    text-align: center;
+    color:  rgba(40, 38, 38, 0.874);
+}
+
+.continue-with-p{
+   text-align: center;
+   position: relative;
+   color: grey;
+   margin: 5px;
+   font-weight: 500;
+}
+
+/* .continue-with-p::before{
+    content: "";
+    position: absolute;
+    width: 93px;
+    top: 10px;
+    border-bottom: 3px solid #eeeeee;
+    left: 1px;
+}
+
+.continue-with-p::after{
+    content: "";
+    position: absolute;
+    width: 93px;
+    border-bottom: 3px solid #eeeeee;
+    top: 10px;
+    right: 110px;
+
+} */
+
+/* form portion */
+#logInForm > div{
+  width: 80%;
+}
+
+#logInForm > input{
+    width: 100%;
+}
+
+#logInForm label{
+    color: rgb(77, 75, 75);
+    font-weight: 700;
+    margin: 10px 0 0 5px;
+}
+
+#logInForm div{
+    margin: 0 0 5px 10px;
+}
+
+/*article footer section */
+.connect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.connect div{
+    padding: 1rem;
+    border-radius: 5px;
+    width: 8rem;
+    border: 2px solid lightgrey ;
+}
+
+.connect div:first-child i{
+    color: rgb(101, 101, 242);
+}
+
+.connect div:nth-child(2) i{
+    color: #FC8019;
+}
+
+
+.connect div:last-child i{
+    color: purple;
+}
+
+#signInBtn{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    background-color: #FC8019;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.no-sign-in{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.no-sign-in a{
+    color: #FC8019;
+}
+
+/* media query */
+@media (min-width: 1200px){
+    .col-xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333%;
+    }
+}
+
+@media (min-width: 1200px)
+{
+.col-xl-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
+
+@media (min-width: 1200px){
+.col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66667%;
+}
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1534px;
+}
+}

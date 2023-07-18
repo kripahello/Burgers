@@ -1,0 +1,94 @@
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/* input country */
+.input-group flex-nowrap{
+    width: 22rem;
+}
+
+/* main */
+main{
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.dashboard-text::after{
+    content:"\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.dashboard::before{
+    content: "\f009";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.restaurant::before{
+    content: "\f2e7";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.drivers::before{
+    content: "\f206";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.apps::before{
+    content: "\f36f";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.charts::before{
+    content: "\f005";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.bootstrap::before{
+    content: "\f005";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.plugins::before{
+    content: "\f004";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.widget::before{
+    content: "\f013";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.forms::before{
+    content: "\f0ce";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.table::before{
+    content: "\f009";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.pages::before{
+    content: "\f15c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
