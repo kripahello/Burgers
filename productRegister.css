@@ -21,6 +21,27 @@ main{
     background-color: bisque;
 }
 
+aside{
+    border-right: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside ul{
+    text-align: left;
+}
+
+aside ul li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h6{
+    color: rgb(246, 13, 36);
+}
+
 .dashboard-text::after{
     content:"\f107";
     font-family: "Font Awesome 6 Free";
@@ -91,4 +112,32 @@ main{
     content: "\f15c";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
+}
+
+/* article portion */
+.selectedMenu{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem 10px 0 0;
+    border: 1px solid rgb(152, 150, 150);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-selected{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 3rem 1rem 0 0;
+}
+
+.item-selected div:first-child{
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+}
+
+.item-selected div:last-child{
+    padding: 1rem;
 }
